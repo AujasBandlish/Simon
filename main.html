@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">Simon</h1>
+    <p> Click this button to start the game. It will run for 5 rounds.</p>
+    <button type="button" onclick="gameStart()" id="gameRunButton">Click Me!</button>
+
+    <div class="top" style="font-size:0;">
+        <div class="green quadrant" onclick="userPlay('Green')"></div>
+        <div class="red quadrant" onclick="userPlay('Red')"></div>
+    </div>
+    <div class="bottom" style="font-size:0;">
+        <div class="yellow quadrant" onclick="userPlay('Yellow')"></div>
+        <div class="blue quadrant" onclick="userPlay('Blue')"></div>
+    </div>
+
+    
+    <script src="main.js"></script>
+    
+</body>
+</html>
